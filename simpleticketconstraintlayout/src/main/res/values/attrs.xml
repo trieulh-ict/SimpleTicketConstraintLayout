@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SimpleTicketConstraintLayout">
+        <attr name="inner_corner_radius" format="dimension" />
+        <attr name="corner_type" format="enum">
+            <enum name="ROUND" value="0" />
+            <enum name="TRIANGLE" value="1" />
+        </attr>
+        <attr name="shadow_radius" format="dimension"/>
+        <attr name="shadow_color" format="color"/>
+    </declare-styleable>
+</resources>
