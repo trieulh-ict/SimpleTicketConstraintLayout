@@ -10,7 +10,25 @@ It is an open source project, feel free to fork and customize it.
 - Adjust Inner Radius for the corner
 - Adjust Shadow size and Shadow color
 
-![Example](images/example.png)
+![Example](images/example.png) ![Example](images/example-triangle.png)
+
+# Usage
+
+```kotlin
+<io.trieulh.simpleticketconstraintlayout.SimpleTicketConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_marginBottom="586dp"
+        app:corner_type="TRIANGLE"
+        app:inner_corner_radius="8dp"
+        app:shadow_radius="2dp"
+        app:shadow_color="#e0e0e0">
+
+        ...
+
+</io.trieulh.simpleticketconstraintlayout.SimpleTicketConstraintLayout>
+```
 
 # Attributes
 

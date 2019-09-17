@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
         android:layout_marginBottom="586dp"
-        app:corner_type="ROUND"
+        app:corner_type="TRIANGLE"
         app:inner_corner_radius="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent"
