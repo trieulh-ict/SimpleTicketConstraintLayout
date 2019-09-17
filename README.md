@@ -1,5 +1,7 @@
 # SimpleTicketConstraintLayout
 
+[![](https://jitpack.io/v/trieulh-ict/SimpleTicketConstraintLayout.svg)](https://jitpack.io/#trieulh-ict/SimpleTicketConstraintLayout)
+
 Custom ConstraintLayout that helps you create a flexible ticket background UI in ease.
 
 It is an open source project, feel free to fork and customize it.
