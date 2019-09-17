@@ -6,6 +6,27 @@ Custom ConstraintLayout that helps you create a flexible ticket background UI in
 
 It is an open source project, feel free to fork and customize it.
 
+### Installation:
+
+In project `build.gradle`:
+
+```kotlin
+allprojects {
+    repositories {
+        ...
+        maven { url 'https://jitpack.io' }
+    }
+}
+```
+
+In app `build.gradle`:
+
+```kotlin
+dependencies {
+    implementation 'com.github.trieulh-ict:SimpleTicketConstraintLayout:version'
+}
+```
+
 ### Some basic features:
 
 - Creata ticket with **TRIANGLE** or **ROUND** corner
