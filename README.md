@@ -33,7 +33,13 @@ dependencies {
 - Adjust Inner Radius for the corner
 - Adjust Shadow size and Shadow color
 
-![Example](images/example.png) ![Example](images/example-triangle.png)
+![Example-Corner](images/example.png) 
+
+![Example-Triangle](images/example-triangle.png)
+
+![Example-Corn-Divider](images/example-2.0.png)
+
+
 
 # Usage
 
@@ -57,10 +63,22 @@ dependencies {
 
 | Atribute              | Value Type           | Description                                                             |
 | --------------------- | -------------------- | ----------------------------------------------------------------------- |
-| _inner_corner_radius_ | Dimension            | Dimension value of Inner Radius (Default is 0)                          |
-| _corner_type_         | Enum(ROUND,TRIANGLE) | Corner type (Default is ROUND)                                          |
-| _shadow_radius_       | Dimension            | Dimension value of Shadow Radius (Default is 0)                         |
-| _shadow_color_        | Color Int            | Color code for Shadow Color (Default is Color.argb(200, 200, 200, 200)) |
+| _ds_inner_corner_radius_ | Dimension            | Dimension value of Inner Radius (Default is 0)                          |
+| _ds_corner_type_         | Enum(ROUND,TRIANGLE) | Corner type (Default is ROUND)                                          |
+| _ds_shadow_radius_       | Dimension            | Dimension value of Shadow Radius (Default is 0)                         |
+| _ds_shadow_color_        | Color Int            | Color code for Shadow Color (Default is Color.argb(200, 200, 200, 200)) |
+| _ds_orientation_        | Enum(HORIZONTAL,VERTICAL)| Orientation of Corn divider                                          |
+| _ds_should_display_divider_| Boolean| Flag to display Corn divider                                          |
+| _ds_should_display_stroke_| Boolean| Flag to display Background stroke                                          |
+| _ds_divider_ratio_| Float(0.0 -> 1.0)| Ratio of divider distance                                          |
+| _ds_divider_distance_| Boolean| Distance of divider from LEFT or TOP                                          |
+| _ds_stroke_width_| Dimension| Width of border stroke                                          |
+| _ds_stroke_color_| Color Int| Color of border stroke                                          |
+
+# Changelog
+- v2.0: Now support OUTER_ROUND corner, Corn Divider and more configuration
+
+- v0.1.0: Init the library, Support CORNER,TRIANGLE corner and some configuration
 
 # License
 
