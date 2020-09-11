@@ -1,12 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <declare-styleable name="SimpleTicketConstraintLayout">
-        <attr name="inner_corner_radius" format="dimension" />
-        <attr name="corner_type" format="enum">
+        <attr name="ds_inner_corner_radius" format="dimension" />
+        <attr name="ds_corner_type" format="enum">
             <enum name="ROUND" value="0" />
             <enum name="TRIANGLE" value="1" />
+            <enum name="OUTER_ROUND" value="2" />
         </attr>
-        <attr name="shadow_radius" format="dimension"/>
-        <attr name="shadow_color" format="color"/>
+        <attr name="ds_shadow_radius" format="dimension" />
+        <attr name="ds_shadow_color" format="color" />
+
+        <attr name="ds_orientation" format="enum">
+            <enum name="HORIZONTAL" value="0" />
+            <enum name="VERTICAL" value="1" />
+        </attr>
+
+        <attr name="ds_should_display_divider" format="boolean" />
+        <attr name="ds_should_display_stroke" format="boolean" />
+        <attr name="ds_divider_ratio" format="float" />
+        <attr name="ds_divider_distance" format="dimension" />
+        <attr name="ds_stroke_width" format="dimension" />
+        <attr name="ds_stroke_color" format="color" />
     </declare-styleable>
 </resources>
