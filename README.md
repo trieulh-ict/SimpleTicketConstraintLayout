@@ -45,14 +45,21 @@ dependencies {
 
 ```kotlin
 <io.trieulh.simpleticketconstraintlayout.SimpleTicketConstraintLayout
+        android:id="@+id/ticketLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="16dp"
-        android:layout_marginBottom="586dp"
-        app:corner_type="TRIANGLE"
-        app:inner_corner_radius="8dp"
-        app:shadow_radius="2dp"
-        app:shadow_color="#e0e0e0">
+        app:ds_corner_type="OUTER_ROUND"
+        app:ds_divider_distance="76dp"
+        app:ds_divider_ratio="0.5"
+        app:ds_inner_corner_radius="8dp"
+        app:ds_orientation="HORIZONTAL"
+        app:ds_shadow_radius="5dp"
+        app:ds_should_display_divider="true"
+        app:ds_should_display_stroke="true"
+        app:ds_stroke_color="@color/colorAccent"
+        app:ds_stroke_width="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         ...
 
